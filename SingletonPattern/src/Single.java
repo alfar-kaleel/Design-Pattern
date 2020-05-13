@@ -1,7 +1,7 @@
 
 public class Single {
 	
-	private static volatile int number = 0;
+	private static volatile int number;
 	private static volatile Single obj;
 	
 	private Single() {
