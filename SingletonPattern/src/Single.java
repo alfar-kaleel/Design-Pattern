@@ -1,7 +1,7 @@
 
 public class Single {
 	
-	private static volatile int number = 0;
+	private static volatile int number;
 	private static volatile Single obj;
 	
 	private Single() {
@@ -38,7 +38,7 @@ public class Single {
 	}
 
 	
-	public static int getint() {
+	public int getint() {
 		
 		if(number == 0) {
 			

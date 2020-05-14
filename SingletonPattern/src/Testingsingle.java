@@ -10,7 +10,7 @@ public class Testingsingle {
 	start = System.currentTimeMillis();
 	
 	Single obj	= Single.getobj();
-	int num = Single.getint();
+	int num = obj.getint();
 	
 	end = System.currentTimeMillis();
 	
@@ -23,7 +23,7 @@ public class Testingsingle {
    start = System.currentTimeMillis();
 	
 	Single obj1	= Single.getobj();
-	int num1 = Single.getint();
+	int num1 = obj.getint();
 	
      end = System.currentTimeMillis();
 	
